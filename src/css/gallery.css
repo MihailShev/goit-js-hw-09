@@ -1,0 +1,23 @@
+.gallery {
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 24px auto;
+}
+
+.gallery-item {
+  width: 360px;
+  height: 200px;
+  overflow: hidden;
+  transition: transform, 250ms linear;
+}
+
+.gallery-item:hover,
+.gallery-item:focus {
+  transform: scale(1.04);
+}
+
+.image-modal {
+  width: 1120px !important;
+}
